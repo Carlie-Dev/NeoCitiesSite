@@ -1,8 +1,7 @@
 body {
-  background: linear-gradient(to bottom, purple, black);
+  background: purple;
   margin: 0;
   padding: 0;
-  height: fit-content;
 }
 
 h1 {
