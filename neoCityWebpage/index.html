@@ -23,120 +23,142 @@
   </head>
   <body>
     <!--Nav bar-->
-    <div class="container p-1">
-      <h1 class="text-center jersey-10-regular">Welcome to The Phoenix Nest</h1>
-      <nav>
-        <ul class="nav justify-content-center">
-          <!--Home-->
-          <p>✦</p>
-          <li class="nav-item">
-            <a class="nav-link candal-regular" href="index.html">Home</a>
-          </li>
-          <p>✦</p>
-          <!--Projects-->
-          <li class="nav-item">
-            <a class="nav-link candal-regular" href="projects.html">Projects</a>
-          </li>
+    <div class="container">
+      <h1>The Phoenix Nest</h1>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home <span class="visually-hidden"></span
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.redbubble.com/people/EllePhoenix-/shop?asc=u"
+                target="_blank"
+                >Shop</a
+              >
+            </li>
 
-          <!--Social Media & More-->
-          <p>✦</p>
-          <li class="nav-item dropdown candal-regular">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Socials & More
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li class="nav-item dropdown candal-regular">
               <a
-                class="dropdown-item jersey-10-regular"
-                href="https://www.youtube.com/@EllePhoenixVT"
-                target="_blank"
-                >YouTube</a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
               >
-              <a
-                class="dropdown-item jersey-10-regular"
-                href="https://www.twitch.tv/ellephoenix_"
-                target="_blank"
-                >Twitch</a
-              >
-              <a
-                class="dropdown-item jersey-10-regular"
-                href="https://www.instagram.com/ellephoenix_d20"
-                target="_blank"
-                >Instagram</a
-              >
-              <a
-                class="dropdown-item jersey-10-regular"
-                href="https://x.com/EllePhoenix_"
-                target="_blank"
-                >X/Twitter</a
-              >
-              <div class="dropdown-divider"></div>
-              <a
-                class="dropdown-item jersey-10-regular"
-                href="https://neocities.org/site/ellephoenix"
-                target="_blank"
-                >Back to Neo Cities</a
-              >
-            </div>
-          </li>
-          <p>✦</p>
-          <li class ="nav-item ">
-            <a class="nav-link candal-regular" href="https://www.redbubble.com/people/EllePhoenix-/shop" target="_blank">Shop</a>
-          </li>
-          <p>✦</p>
-        </ul>
+                Socials & More
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a
+                  class="dropdown-item jersey-10-regular"
+                  href="https://www.youtube.com/@EllePhoenixVT"
+                  target="_blank"
+                  >YouTube</a
+                >
+                <a
+                  class="dropdown-item jersey-10-regular"
+                  href="https://www.twitch.tv/ellephoenix_"
+                  target="_blank"
+                  >Twitch</a
+                >
+                <a
+                  class="dropdown-item jersey-10-regular"
+                  href="https://www.instagram.com/ellephoenix_d20"
+                  target="_blank"
+                  >Instagram</a
+                >
+                <a
+                  class="dropdown-item jersey-10-regular"
+                  href="https://x.com/EllePhoenix_"
+                  target="_blank"
+                  >X/Twitter</a
+                >
+                <div class="dropdown-divider"></div>
+                <a
+                  class="dropdown-item jersey-10-regular"
+                  href="https://neocities.org/site/ellephoenix"
+                  target="_blank"
+                  >Back to Neo Cities</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
       </nav>
     </div>
-    <!--End of Nav  Bar-->
 
     <!--Main Content-->
-    <div
-      class="container d-flex justify-content-center flex-wrap gap-4"
-    >
-
-      <div class="d-flex row">
-        <div class="col">
-          <div class="card" style="width: 18rem; height: 30rem;">
-        <img
-          src="images/IMG_0217.png"
-          class="card-img-top"
-          alt="User Avatar - Elle"
-        />
-        <div class="card-body">
-          <p class="card-text candal-regular">
-            Hello, my name is Carlie, but I also go by EllePhoenix online. I am
-            in many things a nerd. I like video games, art, writing, making
-            characters, and more!
-          </p>
-        </div>
-      </div>
-        </div>
-        <div class="col">
-          <div class="card" style="width: 40rem; height: 30rem;">
-            <div class="card-body">
-              <h5 class="card-title jersey-10-regular">YouTube</h5>
+    <div class="container py-4">
+      <div class="row">
+        <!--Introduction-->
+        <!-- at large take up 3 spaces, else take up 12-->
+        <div class="col-12 col-lg-3 mb-3">
+          <div class="card h-100">
+            <img
+              src="images/IMG_0217.png"
+              class="card-img-top"
+              alt="User Avatar - Elle"
+            />
+            <div class="card-body h-100">
               <p class="card-text candal-regular">
-                Long-form youtube videos.
+                Hello, my name is Carlie, but I also go by EllePhoenix online. I
+                am in many things a nerd. I like video games, art, writing,
+                making characters, and more!
               </p>
-
-              <!--Fouita embed for youtube channel videos-->
-            <iframe src="https://emb.fouita.com/widget/0x3e6645/ftfk3cmagj" 
-            title="Youtube Channel Feed" width="100%" height="350" frameborder="0" >
-            </iframe>
- 
             </div>
           </div>
         </div>
-        <div class="col">
+        <!--Center item (currently youtube)-->
+        
+        <!-- at large take up 6 spaces, else take up 12-->
+        <div class="col-12 col-lg-6 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title jersey-10-regular">YouTube</h5>
+              <p class="card-text candal-regular">Long-form youtube videos.</p>
+
+              <!--Fouita embed for youtube channel videos-->
+              <iframe
+                src="https://emb.fouita.com/widget/0x3e6645/ftfk3cmagj"
+                title="Youtube Channel Feed"
+                width="100%"
+                height="350"
+                frameborder="0"
+              >
+              </iframe>
+              <p class="card-text candal-regular">
+                The occasional ramblings and attempts at making videos, made by
+                yours truly. An elf with the survival instincts of a dodo bird.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Right item for engagement-->
+        <!-- at large take up 3 spaces, else take up 12-->
+        <div class="col-12 col-lg-3 mb-3">
           <!--Chat Box-->
-          <div class="card" style="width: 18rem; height: 30rem;">
+          <div class="card h-100">
             <div class="card-body">
               <iframe
                 src="https://www3.cbox.ws/box/?boxid=3552686&boxtag=n61XKa"
@@ -153,8 +175,6 @@
           </div>
         </div>
       </div>
-      
-      
     </div>
 
     <!--Bootstrap .js-->
