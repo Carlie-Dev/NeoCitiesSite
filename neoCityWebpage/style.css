@@ -12,7 +12,6 @@ h1 {
 }
 nav{
   font-family: "Candal", sans-serif;
-  border-radius: 0.5rem;
 }
 
 .jersey-10-regular {
@@ -27,3 +26,12 @@ nav{
 }
 
 
+.navbar {
+  border-radius: 0; /* default square for small screens */
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    border-radius: 0.5rem; /* rounded corners for lg+ */
+  }
+}
